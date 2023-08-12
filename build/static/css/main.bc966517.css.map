@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.bc966517.css","mappings":"AAAA,gBASI,kBAAmB,CADnB,WAAY,CAFZ,MAAO,CAFP,cAAe,CACf,KAAM,CAEN,UAGJ","sources":["style.css"],"sourcesContent":["html,\nbody,\n#root\n{\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background: #E2E0DE;\n}"],"names":[],"sourceRoot":""}
