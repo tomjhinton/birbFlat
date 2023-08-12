@@ -21,12 +21,14 @@ export default function Experience(props) {
   const whiteMaterial = useRef()
   const redMaterial = useRef()
 
+
+
+
   let groupRef = useRef()
 
   let materialArray = [yellowMaterial, lightYellowMaterial, blackMaterial, whiteMaterial, redMaterial]
   const eric = useTexture('eric.jpeg');
   eric.flipY = false
-  console.log(eric)
 
   useEffect(() =>{
 
@@ -90,6 +92,8 @@ export default function Experience(props) {
       onPointerLeave={handleMouseLeave}
           geometry={nodes.Plane_1.geometry}
           ref={yellowMaterial}
+          material={materials["Material.001"]}
+
          
         >
           <yellowMaterial side={THREE.DoubleSide} />

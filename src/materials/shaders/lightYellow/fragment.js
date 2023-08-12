@@ -96,7 +96,7 @@ void main(){
 float alpha =1.;
 
 
-  color = tex.rgb ;
+  color = vec3(1., 1., .7);
 
   
   if(uMousePosition.x != 0.){

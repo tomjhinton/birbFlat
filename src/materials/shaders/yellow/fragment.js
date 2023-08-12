@@ -95,8 +95,13 @@ void main(){
 
 float alpha =1.;
 
+color = vec3(1., 1., 0.);
 
+if( uMousePosition.x != 0.){
   color = tex.rgb ;
+}
+
+  
 
   
 

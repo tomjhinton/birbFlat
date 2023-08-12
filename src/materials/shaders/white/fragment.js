@@ -95,7 +95,7 @@ void main(){
 float alpha =1.;
 
 
-  color = tex.rgb ;
+  color = vec3(1.);
 
   if(uMousePosition.x != 0.){
    uv = rotate2D(uv,  PI + uMousePosition.x);

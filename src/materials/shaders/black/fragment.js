@@ -96,7 +96,7 @@ void main(){
 float alpha =1.;
 
 
-  color = tex.rgb ;
+  color = vec3(0.);
 
   if(uMousePosition.x != 0.){
     uv.y += sin(uTime * 7.) * .05;
